@@ -1,12 +1,12 @@
 ﻿# UnSplash Wallpaper Changer for Windows
-This works to get you a pretty wallpaper every hour. A random image is pulled from unsplash.
+This works to get you a pretty wallpaper every hour. A random image is pulled from unsplash. Born out of frustratingly looking for a simple application that can change my windows wallpaper every hour (every day is too long and I hate bloatware and branded wallpapers etc. etc. etc.- sorry Bing!)
 
 ## Installation
 Download from here 
 
 <https://jangita.io/wwpc-setup-2020-09-10.exe> 
 
-and double click to install.
+and double click to install. You'll know it worked if you wallpaper magically changes after you install.
 
 ## Usage
 
