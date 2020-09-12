@@ -36,6 +36,8 @@ OutputBaseFilename=wwpc-setup-2020-09-10
 [Run]
 Filename: "{app}\wwpc.exe"; WorkingDir: "{app}"
 Filename: "schtasks"; Parameters: "/Create /F /SC HOURLY /TN ""Windows Wallpaper Changer"" /TR ""{app}\wwpc.exe"""; Flags: runhidden
+Filename: "schtasks"; Parameters: "/Create /F /SC LOGON /TN ""Windows Wallpaper Changer Logon"" /TR ""{app}\wwpc.exe"""; Flags: runhidden
 
 [UninstallRun]
 Filename: "schtasks"; Parameters: "/Delete /F /TN ""Windows Wallpaper Changer"""; Flags: runhidden
+Filename: "schtasks"; Parameters: "/Delete /F /TN ""Windows Wallpaper Changer Logon"""; Flags: runhidden
