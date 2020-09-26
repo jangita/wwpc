@@ -4,7 +4,7 @@ This works to get you a pretty wallpaper every hour. A random image is pulled fr
 ## Installation
 Download from here 
 
-<https://jangita.io/wwpc-setup-2020-09-10.exe> 
+<https://github.com/jangita/wwpc/releases/download/v2020.09.26/wwpc-setup-2020-09-26.exe> 
 
 and double click to install. You'll know it worked if you wallpaper magically changes after you install.
 
