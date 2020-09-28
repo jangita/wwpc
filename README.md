@@ -1,4 +1,4 @@
-﻿# UnSplash Wallpaper Changer for Windows
+﻿# UnSplash Wallpaper Changer for Windows [![Build Status](https://travis-ci.com/jangita/wwpc.svg?branch=master)](https://travis-ci.com/jangita/wwpc)
 This works to get you a pretty wallpaper every hour. A random image is pulled from unsplash. Born out of frustratingly looking for a simple application that can change my windows wallpaper every hour (every day is too long and I hate bloatware and branded wallpapers etc. etc. etc.- sorry Bing!)
 
 ## Installation
