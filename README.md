@@ -20,6 +20,8 @@ In the windows add/remove programs, you'll see windows wallpaper installer. Just
 
 ## Contributing
 
+Would greatly appreciate a coffee to put up and maintain more opensource stuff. Buy me one here ☕ https://paypal.me/exoscale
+
 Maybe build better installer?
 Add tray icon to run on demand?
 Have a way to customize how long before changing wallpaper?
