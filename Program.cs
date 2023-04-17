@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Net;
 
 using System.Runtime.InteropServices;
+Using Newtonsoft.Json;
 
 
 
@@ -29,7 +30,9 @@ namespace wwpc
             // Let's download the new image
             using (WebClient client = new WebClient())
             {
-                client.DownloadFile("https://source.unsplash.com/random/2560x1600", "chris.jpg");
+                var str = client.DownloadString("https://peapix.com/bing/feed");
+                dynamic json = JsonConvert.DeserializeObject(str);
+                client.DownloadFile(json[0]["fullUrl"], "chris.jpg");
             }
 
             // .. and change wallpaper!
